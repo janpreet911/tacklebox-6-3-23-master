@@ -1,0 +1,913 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+.container {
+  max-width: 1520px;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  border-bottom: 2px solid #494949;
+}
+
+/* header starts */
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  /* margin-left: 40px; */
+}
+nav {
+  display: flex;
+  flex: 1 1 auto;
+  margin-left: 100px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 40px;
+   /* margin-right: 101px; */
+}
+
+/* header ends */
+
+/* hero-sections starts */
+
+
+
+.hero-section {
+  background: url(./images/Background-image.png);
+  display: flex;
+  /* padding-top: 50rem; */
+  /* margin-top: -4rem; */
+  color: #ffffff;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center center;
+  /* width: 1920px; */
+  /* min-height: 20rem; */
+  background-repeat: no-repeat;
+  padding: 0 100px;
+  position: relative;
+}
+.heading-container {
+  position: absolute;
+  top: 428px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  left: 100px;
+}
+.main-heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 260px;
+}
+.main-heading h1 {
+  font-size: 90px;
+}
+.arrow-icon {
+  height: 4rem;
+  width: 4rem;
+}
+
+h1 {
+  font-weight: 100;
+  text-align: center;
+  color: #fff;
+}
+
+.rectangle-hero-section {
+  /* width: 1720px; */
+  /* margin: auto; */
+  display: flex;
+  /* padding: 5rem; */
+  flex-direction: column;
+  justify-content: center;
+  background: url('./images/Rectangle\ 1\ \(2\).png');
+  background-repeat: no-repeat;
+  /* margin-right: -169px; */
+  margin-top: 157px;
+  margin-left: 100px;
+}
+.rectangle-hero-section-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0 4em;
+}
+.rectangle-hero-section h2 {
+  font-size: 3.5rem;
+  /* margin-left: -502px; */
+  /* margin-top: 10px; */
+}
+
+.rectangle-hero-section p {
+  font-size: 2rem;
+  /* margin-left: -494px; */
+}
+
+/* hero-section ends */
+
+/* section-1 starts */
+
+.s1 {
+  margin-top: 170px;
+}
+.momentum-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding-bottom: 29px;
+}
+
+.grid-container {
+  display: grid;
+  color: #ffffff;
+  grid-template-columns: auto auto auto;
+
+}
+
+.grid-item {
+  padding: 35px 100px;
+
+}
+.grid-items-1 {
+  display: flex;
+  align-items: center;
+}
+
+/* section-1 ends */
+
+/* section-2 starts */
+
+
+
+.s2 {
+  background-image: url(./images/rectagle-1.png);
+  width: 1645px;
+  height: 784px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 4rem;
+  margin-left: 117px;
+}
+.rectangle-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h3 {
+  margin-bottom: 2rem;
+  color: #ffffff;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+
+}
+.s2 {
+  background-image: url(./images/rectagle-1.png);
+  width: 1700px;
+  height: 730px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 4rem;
+  margin-left: 117px;
+}
+h3.s2-1h {
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.s2-1 {
+  position: absolute;
+  right: 4rem;
+  bottom: 7rem;
+}
+
+h4 {
+  margin-top: 3rem;
+  font-size: 40px;
+  line-height: 50px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-bottom: 18px;
+}
+.btn-1 {
+  width: 330px;
+  height: 117px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #000;
+}
+
+
+/* section-2 ends */
+
+
+/* section-3 starts */
+
+section.s3 {
+  padding-top: 139px;
+}
+.clients {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 165px;
+  column-gap: 137px;
+  padding-bottom: 115px;
+}
+.client-image-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clients-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 158px;
+  column-gap: 192px;
+  padding-top: 5rem;
+}
+
+.client-1-image-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* section-3 ends */
+
+/* section-4 starts */
+
+.section-4 {
+  margin-top: 118px;
+}
+
+.circle-left {
+  margin-left: 98px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.circle-img {
+  padding-top: 37px;
+}
+
+.circle-heading {
+  width: 1051px;
+  height: 81px;
+}
+
+#p-circle{
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+  margin-left: 13px;
+}
+
+#para-B2B {
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.B2B {
+  margin-top: 50px;
+  margin-left: 13px;
+}
+
+#branding {
+  font-weight: 100;
+  margin-left: -15px;
+  margin-top: 105px;
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+#para-branding {
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-top: 50px;
+  font-weight: 100;
+
+}
+
+
+table,
+td {
+
+  border: 1px solid #7bdfc3;
+  border-collapse: collapse;
+}
+
+td {
+  color: #ffffff;
+  padding: 0px 17px;
+
+  margin-left: 13px;
+}
+
+tr, td {
+  width: 397px;
+  height: 54px;
+}
+
+.table {
+  margin-top: 54px;
+}
+
+.button-rectangle-1{
+  display: flex;
+  padding: 0px 36px;
+  margin-left: 50px;
+}
+
+#rectangle-heading {
+  font-weight: 100;
+
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffffff;
+  font-family: "N Haas Grotesk DS Pro";
+  margin-left: 48px;
+  letter-spacing: 2px;
+}
+
+.rectangle-1-main {
+  margin-top: 65px;
+  /* background-image: url('./images/Rectangle\ 8\ copy..'); */
+  background-color: #24262b;
+
+  width: 1301px;
+  height: 193px;
+  display: flex;
+  align-items: center;
+}
+
+
+#first-btn {
+  width: 338px;
+  height: 110px;
+  font-weight: 100;
+  background-color: #000000;
+  color: #ffffff;
+  border: 3px solid #7bdfc3;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#second-btn {
+  font-weight: 100;
+  width: 338px;
+  height: 110px;
+  background-color: #7bdfc3;
+  color: #ffffff;
+  margin-left: 22px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#market-heading {
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  font-family: "N Haas Grotes";
+  margin-top: 52px;
+}
+
+.marketing {
+  margin-top: 67px;
+}
+
+#market-images {
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+  font-family: "N Haas Grotesk DS Pro";
+  display: flex;
+  align-items: center;
+}
+
+.button-rectangle-3 {
+  display: flex;
+  margin-right: 65px;
+  margin-left: 50px;
+}
+
+.heading-main-rectangle-3 {
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffffff;
+  font-family: "N Haas Grotesk DS Pro";
+}
+
+.rectangle-3 {
+  margin-top: 65px;
+  /* background-image: url('./images/Rectangle\ 8\ copy.png'); */
+  width: 1301px;
+  height: 193px;
+  display: flex;
+  align-items: center;
+  background-color: #24262b;
+}
+
+#para-rectangle-3 {
+  margin-left: 95px;
+  font-weight: 100;
+  margin-right: 74px;
+  
+}
+/* section-4 ends */
+
+
+h3 {
+  margin-bottom: 2rem;
+  color: #ffffff;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+
+}
+.s5 {
+  background-image: url(./images/Rectangle\ 1\ copy\ 40.png);
+  width: 1700px;
+  height: 730px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 4rem;
+  margin-left: 117px;
+}
+h3.s5-1h {
+  font-size: 40px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.big-rectangle-2 {
+  position: absolute;
+  left: 5rem;
+  bottom: 8rem;
+}
+
+.btn-5 {
+  width: 330px;
+  height: 117px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #000;
+}
+
+
+
+
+
+
+#subs {
+  font-size: 40px;
+  line-height: 70px;
+  color: #ffffff;
+  font-family: "N Haas Grotesk DS Pro";
+}
+
+
+
+#email {
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffffff;
+  font-family: "N Haas Grotesk DS Pro";
+  margin-bottom: 20px;
+}
+
+.subs_email {
+  display: flex;
+  align-items: center;
+  height: 340px;
+}
+
+.subscribe {
+  width: 760px;
+  display: flex;
+  align-items: center;
+}
+
+.email {
+  width: 760px;
+  margin-left: 136px;
+}
+
+.subscribe img {
+  margin-bottom: -13px;
+}
+
+#email img {
+  float: right;
+}
+
+.main6 {
+  display: flex;
+  justify-content: center;
+}
+
+.last_section {
+  display: flex;
+  justify-content: center;
+  background-color: #1a1a1a;
+  height: 511px;
+  width: 1718px;
+}
+
+.middle {
+  padding: 1em 23em;
+  margin-top: -43px;
+  margin-left: -78px;
+
+}
+
+.left {
+  padding: 4em 0em;
+  margin-left: -86px;
+
+}
+
+.right {
+  padding: 4em 0em;
+  margin-top: -43px;
+  margin-left: -221px;
+
+
+}
+
+.res {
+  margin-top: 0px;
+  margin-bottom: 45px;
+}
+
+#res {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  color: #ffffff;
+
+}
+
+.social img {
+  margin-top: 45px;
+  margin-bottom: 45px;
+
+
+}
+
+.social {
+  margin-bottom: 10px;
+  margin-top: -45px;
+}
+
+.copyright {
+  margin-top: -56px;
+}
+
+.copyright img {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  color: #ffffff;
+
+}
+
+#service {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  color: #ffffff;
+
+}
+
+#contact {
+  margin-top: -23px;
+  margin-bottom: 45px;
+  color: #ffffff;
+
+}
+
+#about {
+  margin-top: -23px;
+  margin-bottom: 45px;
+  color: #ffffff;
+
+}
+
+#tack {
+  margin-top: -23px;
+  margin-bottom: 45px;
+  color: #ffffff;
+
+}
+
+#work {
+  margin-top: -23px;
+  margin-bottom: 45px;
+  color: #ffffff;
+}
+
+#services {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  color: #ffffff;
+}
+
+#E {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  color: #ffffff;
+}
+
+#P {
+  margin-top: -23px;
+  margin-bottom: 45px;
+  color: #ffffff;
+}
+
+#add1 {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  color: #ffffff;
+}
+
+#add2 {
+  margin-top: -23px;
+  margin-bottom: 45px;
+  color: #ffffff;
+}
+
+.right {
+  display: flex;
+}
+
+.two {
+  margin-left: 98px;
+}
+
+.tacklebox {
+  margin-top: 5px
+}
+
+.end_side {
+  margin-right: -50px;
+}
+
+.end_side2 {
+  margin-left: 35px;
+
+}
+
+.end_side2 p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 90px;
+  color: #ffffff;
+}
+
+#end_side1 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 90px;
+  color: #ffffff;
+}
+
+.navbar {
+  margin-left: -135px;
+
+}
+
+.navbar ul li {
+  margin-left: -30px;
+
+}
+
+hr {
+  margin-right: -110px
+}
+
+.para img {
+  float: right;
+  margin-right: 200px;
+  margin-top: -85px;
+}
+
+.para_box {
+  margin-top: -25px;
+
+}
+
+.para4 {
+  margin-left: 30px;
+}
+
+.headings {
+  margin-top: 42px;
+}
+
+#pp img {
+  margin-bottom: -28px;
+
+}
+
+.h2_para {
+  margin-top: -75px;
+  margin-left: 53px;
+}
+
+.grid-container {
+  padding: 0px 80px;
+  margin-left: -50px;
+
+}
+
+#para5 {
+  margin-left: -40px;
+
+}
+
+.right_png {
+  width: 620px;
+  background-size: cover;
+}
+
+.button {
+  margin-left: 135px;
+}
+
+#para6 {
+  margin-left: 30px;
+  margin-top: -10px;
+}
+
+.arrow {
+  margin-left: 115px
+}
+
+.section2 {
+  margin-left: 33px;
+
+}
+
+#market_head {
+  margin-left: -4px;
+}
+
+.right {
+  margin-left: -160px;
+  margin-right: -60px;
+}
+
+.para4 img {
+  margin-top: 4px;
+}
+
+#email {
+  width: 670px;
+
+}
+
+.email {
+  border-bottom: 2px solid #ffffff;
+}
+
+.main6 {
+  width: 1724px;
+  height: 498px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  width: 1720px;
+  background-color: #24262b;
+  padding: 70px 0;
+}
+
+.ppw {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  margin-left: 100px;
+  margin-top: 66px;
+}
+
+#findmore {
+  background-color: #000000;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: 'Neue Haas Grotesk Display Pro';
+  font-weight: 100;
+}
+
+.navbar ul li a:hover {
+  padding-bottom: 39px;
+  background-color: transparent;
+  border-bottom: 3px solid #ffffff;
+}
+
+#t {
+  font-weight: 900;
+}
+
+.footer {
+  width: 1700px;
+  background-color: #24262b;
+  padding: 70px 0;
+  margin: auto;
+}
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-col > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+}
+
+
+.footer-col ul li {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #bbbbbb;
+
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+}
+
+.social-media-icons-footer {
+  display: flex;
+  gap: 0.5rem;
+}
